@@ -1,0 +1,177 @@
+/* Write your CSS! */
+* {
+  -webkit-user-select: none;
+  /* Chrome all / Safari all */
+  -moz-user-select: none;
+  /* Firefox all */
+  -ms-user-select: none;
+  /* IE 10+ */
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none; }
+
+html {
+  height: 100%;
+  width: 100%;
+  background: white; }
+
+body {
+  background: black;
+  height: 900px;
+  width: 1600px;
+  font-family: "Museo", "Museo 300";
+  font-weight: 300;
+  line-height: 28px;
+  font-size: 18px;
+  color: white;
+  margin: auto;
+  overflow: hidden;
+  position: relative; }
+
+h2 {
+  font-family: "Cutoff Pro";
+  font-weight: normal;
+  color: #e0bb00;
+  font-size: 58px;
+  line-height: 56px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 0px;
+  margin-top: 0; }
+
+p {
+  margin-bottom: 28px;
+  margin-top: 22px;
+  letter-spacing: 0px; }
+
+.section-number {
+  text-transform: uppercase;
+  margin-top: -4px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  color: #a0a0a0;
+  font-family: "Museo";
+  font-weight: 500;
+  font-style: normal; }
+
+.scrollarea {
+  width: 35%;
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 3%;
+  z-index: 99; }
+  .scrollarea ul {
+    list-style: none;
+    padding: 0;
+    margin: 4em 0; }
+  .scrollarea li {
+    padding: 2em;
+    margin: 0;
+    opacity: 0.4;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+    background: #141414 url(../background-offblack.png) 0 0 no-repeat; }
+  .scrollarea .active {
+    opacity: 1;
+    filter: none;
+    -webkit-filter: none; }
+
+.controls {
+  position: absolute;
+  top: 4em;
+  left: 38%;
+  display: block; }
+
+a {
+  height: 60px;
+  width: 60px;
+  background: #141414 url(../arrow-down.png) center center no-repeat;
+  display: inline-block;
+  margin-left: 0.25em;
+  text-indent: -99em; }
+
+.up {
+  background-image: url(../arrow-up.png); }
+
+.top {
+  background-image: url(../arrows-restart.png);
+  width: 129px; }
+
+.bookofdead {
+  background: black url(../caverns2.jpg) center center no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 400px;
+  left: 0;
+  width: 1600px;
+  height: 192px;
+  transition: all 2s linear; }
+
+.position1 {
+  top: 400px;
+  left: 0;
+  width: 1600px;
+  height: 192px; }
+
+.position2 {
+  top: 40px;
+  left: -5316px;
+  width: 6946px;
+  height: 832px; }
+
+.position3 {
+  top: -400px;
+  left: -8630px;
+  width: 12503px;
+  height: 1498px; }
+
+.position4 {
+  top: -310px;
+  left: -100px;
+  width: 12503px;
+  height: 1498px; }
+
+.position5 {
+  top: -200px;
+  left: -1220px;
+  width: 20839px;
+  height: 2497px; }
+
+.position6 {
+  top: -970px;
+  left: -4030px;
+  width: 25038px;
+  height: 3000px; }
+
+.position7 {
+  top: -610px;
+  left: -1250px;
+  width: 12503px;
+  height: 1498px; }
+
+.position8 {
+  top: -1610px;
+  left: -8700px;
+  width: 25038px;
+  height: 3000px; }
+
+.position9 {
+  top: -1610px;
+  left: -9380px;
+  width: 25038px;
+  height: 3000px; }
+
+.position10 {
+  top: -1610px;
+  left: -9880px;
+  width: 25038px;
+  height: 3000px; }
+
+.position11 {
+  top: 40px;
+  left: -3610px;
+  width: 6946px;
+  height: 832px; }
